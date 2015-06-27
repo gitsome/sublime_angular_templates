@@ -5,7 +5,7 @@ Encourages you to keep your directive templates within the directive script file
 * Ultimately, the controller to view logic (controller function and template in a directive) is a point of constant evaluation and tweaks. This means that keeping both the template and controller logic in your own brains RAM improves understanding of the directive and development speed.
 * Reduces the number of files needed for a complete directive
 * Reduces the need for template caches and scripts to manage template caches
-* (WARNING OPINION) Although ideally re-use of a controller across multiple views sounds like a good idea, it rarely happens in practice so there is no reason to separate a view that is commonly used with the same controller. This opinion is somewhat backed by the changes coming in Angular 2.0 [Don't use controllers](http://teropa.info/blog/2014/10/24/how-ive-improved-my-angular-apps-by-banning-ng-controller.html)
+* (WARNING: OPINION) Ideally re-use of a controller across multiple views sounds like a good idea. This approach in my experience has NEVER payed off and it rarely happens in practice so there is no reason to separate a view that is used with the same controller. This opinion is somewhat backed by the changes coming in Angular 2.0 [Don't use controllers](http://teropa.info/blog/2014/10/24/how-ive-improved-my-angular-apps-by-banning-ng-controller.html)
 
 ## Usage
 
