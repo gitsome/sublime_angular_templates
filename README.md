@@ -1,4 +1,6 @@
-# sublime_angular_templates (0.0 version, need a few brave souls to help improve this plugin for a 1.0 release)
+# sublime_angular_templates 
+(0.0 version, need a few brave souls to help improve this plugin for a 1.0 release)
+
 Encourages you to keep your directive templates within the directive script file by providing HTML syntax highlighting within templates as well as commands to strip string delimiters while edting templates.
 
 This approach is aimed to reduce congnitive load and improve efficiencey in sublime with syntax highlighting and html editing within a js file for AngularJS directives.
