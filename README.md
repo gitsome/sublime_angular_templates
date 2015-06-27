@@ -4,9 +4,9 @@ Encourages you to keep your directive templates within the directive script file
 This approach is aimed to reduce congnitive load and improve efficiencey in sublime with syntax highlighting and html editing within a js file for AngularJS directives.
 
 # WARNING
-* This is a 0.0 version. USE AT YOUR OWN RISK. We a few brave souls to help improve this plugin for a 1.0 release
-* If anyone has the expertise to package this up as a sublime plugin installable from package control, that would be a huge win
+* This is a 0.0 version. USE AT YOUR OWN RISK. We need a few brave souls to help improve this plugin for a 1.0 release
 * Right now there are RESTRICTIONS on which files will utilize the plugin. Files that can activate the command to strip string delimiters MUST HAVE a '*.dir.js' filename.  This is a convention I have been exposed to. Feel free to tweak the script yourself to remove this restriction.
+* If anyone has the expertise to package this up as a sublime plugin installable from package control, that would be a huge win
 
 ## Why have directive templates within the directive js file?
 * Ultimately, the controller to view logic (controller function and template in a directive) is a point of constant evaluation and tweaks. This means that keeping both the template and controller logic in your own brains RAM and actual view improves understanding of the directive and development speed.
