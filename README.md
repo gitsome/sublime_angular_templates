@@ -1,6 +1,11 @@
 # sublime_angular_templates
 Code to allow html syntax highlighting within a javascript directive file.
 
+## Why have directive templates within the directive js file?
+* Ultimately, the controller to view logic (controller function and template in a directive) is a point of constant evaluation and tweaks. This means that keeping both the template and controller logic in your own brains RAM improves understanding of the directive and development speed.
+* Reduces the number of files needed for a complete directive
+* Reduces the need for template caches and scripts to manage template caches
+
 ## Usage
 
 After setting it up, the plugin will automatically add html syntax highlighting if the following conditions are met:
