@@ -8,7 +8,7 @@ Encourages you to keep your directive templates within the directive script file
 * (WARNING: OPINION) Ideally re-use of a controller across multiple views sounds like a good idea. This approach in my experience has NEVER payed off and it rarely happens in practice so there is no reason to separate a view that is used with the same controller. This opinion is somewhat backed by the changes coming in Angular 2.0 [Don't use controllers](http://teropa.info/blog/2014/10/24/how-ive-improved-my-angular-apps-by-banning-ng-controller.html)
 
 ## Alternatives for storing templates within directive files
-So this plugin is a workaround to improve cognitive load, effienciency while developing, and reduction in scripts to generate final template cache files, but is not necessarily ideal. There could be many alternate solutions to expose the view with the controller while developing through other IDE plugin scripts. So keep your eyes peeled for better solutions to an important problem (cough cough... Atom).
+So this plugin is a workaround to improve cognitive load, effienciency while developing, and reduction in scripts to generate final template cache files, but is not necessarily ideal. There could be many alternate solutions to expose the view with the controller while developing through other IDE plugin scripts (iOS dev in xCode provides similar features to hide and show the layouts associated with code interfaces). So keep your eyes peeled for better solutions to an important problem (cough cough... Atom).
 
 ## Usage
 
