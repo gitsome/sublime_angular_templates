@@ -12,10 +12,10 @@ This approach is aimed to reduce congnitive load and improve efficiencey in subl
 * Ultimately, the controller to view logic (controller function and template in a directive) is a point of constant evaluation and tweaks. This means that keeping both the template and controller logic in your own brains RAM and actual view improves understanding of the directive and development speed.
 * Reduces the number of files needed for a complete directive
 * Reduces the need for template caches and scripts to manage template caches
-* (WARNING: OPINION) Ideally re-use of a controller across multiple views sounds like a good idea. This approach in my experience has NEVER payed off and it rarely happens in practice so there is no reason to separate a view that is used with the same controller. This opinion is somewhat backed by the changes coming in Angular 2.0 [Don't use controllers](http://teropa.info/blog/2014/10/24/how-ive-improved-my-angular-apps-by-banning-ng-controller.html)
+* Ideally re-use of a controller across multiple views sounds like a good idea. This approach in my experience does not usally pay off so there is less of a reason to separate a view that is used with the same controller. This opinion is somewhat backed by the changes coming in Angular 2.0 [Don't use controllers](http://teropa.info/blog/2014/10/24/how-ive-improved-my-angular-apps-by-banning-ng-controller.html)
 
 ## Alternatives for storing templates within directive files
-So this plugin is a workaround to improve cognitive load, effienciency while developing, and reduction in complexity associated with generating scripts to deal with template cache files and template paths, but is not necessarily ideal. There could be many alternate solutions to expose the view with the controller while developing through other IDE plugin scripts (iOS dev in xCode provides similar features to hide and show the layouts associated with code interfaces). So keep your eyes peeled for better solutions to an important problem (cough cough... Atom).
+So this plugin is a workaround to improve cognitive load, effienciency while developing, and reduction in complexity associated with generating scripts to deal with template cache files and template paths, but is not necessarily ideal. There could be many alternate solutions to expose the view with the controller while developing through other IDE plugin scripts (iOS dev in xCode provides similar features to hide and show the layouts associated with code interfaces).
 
 ## Usage
 
